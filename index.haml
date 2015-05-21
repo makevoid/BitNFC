@@ -1,8 +1,5 @@
-:ruby
-  def partial()
-    haml ""
-  end
-
+-# autoplay = "autoplay=1"
+- autoplay = ""
 !!!
 %html.bg-dark
   %head
@@ -10,218 +7,198 @@
     %meta{:charset => "UTF-8"}/
     %title BitNFC
     %link{:href => "http://fonts.googleapis.com/css?family=Roboto", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://720kb.github.io/csshelper/assets/ext/src/helper.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "assets/css/vendor/helper.css", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "assets/css/style.css", :rel => "stylesheet", :type => "text/css"}/
   %body.bg-dark
     %a{:href => "https://github.com/720kb/BitNFC"}
       %img{:alt => "Fork me on GitHub", "data-canonical-src" => "https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png", :src => "https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67", :style => "position: absolute; top: 0; right: 0; border: 0;"}/
     .line-compress.center-content.bg-dark.color-white
       .separator50
-      %img{:src => "assets/img/logo.png", :width => "75"}/
+      %img{:src => "http://mkvd.s3.amazonaws.com/DogeNFC/DogeNFC_Logo_Complete.png", :width => "400"}/
       .separator5
-      %h1 BitNFC
-      .separator10
-      %h3 Bitcoin NFC Android Mobile Wallet
-      .separator30
-      %div
-        %a{:href => "https://copy.com/RFU1SLqowCJEra4l"}
-          %img{:src => "assets/img/google-badge.png", :width => "170"}/
-      %span.radius-crazy.fixed.bottom.right.bg-dark
+      .font3x
+        %h1 DogeNFC
         .separator10
-        %h4.line.color-white
-                
-          %a{:href => "//developers.coinbase.com/bithack", :target => "_blank"}
-            %img.v-middle{:src => "assets/img/bithack.png", :width => "70"}/
-          %span.v-middle
-             by
-            %a.v-middle.color-white{:href => "//coinbase.com", :target => "_blank"} Coinbase
-                  
-          .separator10
-    .line-compress.center-content.bg-dark
+        .separator10
+        %h3 Dogecoin NFC Android Mobile Wallet
       .separator50
-      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "620", :src => "https://www.youtube.com/embed/srE1fDB-dTY", :width => "90%"}
-      .separator50
-    .line-compress.center-content.bg-dark
-      / # link - http://www.thingiverse.com/thing:706011
-      .card.article
-        .hdr
-          .provider.provider-gt-35
-            %img.provider-favicon{:height => "16", :src => "http://www.thingiverse.com/img/favicons/favicon-32x32.png", :width => "16"}/
-            %a.provider-name{:href => "http://www.thingiverse.com", :target => "_blank"} Thingiverse
-        .bd
-          .pair-bd
-            .art-bd
-              %a{:href => "http://www.thingiverse.com/thing:706011", :target => "_blank"}
-                %img.art-bd-img{:src => "http://i-cdn.embed.ly/1/display/crop?height=200&key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2Fthingiverse-production-new.s3.amazonaws.com%2Frenders%2Fad%2F6d%2F53%2F98%2Faa%2Fbtc4_preview_featured.jpg&width=636"}/
-            .txt-bd
-              %h1.title
-                %a{:href => "http://www.thingiverse.com/thing:706011", :target => "_blank"} Bitcoin NFC Coin / Tag by Makevoid
-              %p.description Bitcoin NFC 3D printed tag! Print your own NFC Tag, many usecases! (see below) Watch the demo Youtube video: https://www.youtube.com/watch?v=XvkjrJfUNgQ NFC Tags programmable with (examples): - Private Key (5....) - BTC Address (1...)
-              %a.action{:href => "http://www.thingiverse.com/thing:706011", :target => "_blank"} Read this on thingiverse.com &gt;
+      %div
+        %a{:href => "http://mkvd.s3.amazonaws.com/apps/BitNFC-armv7.apk"}
+          %img{:src => "assets/img/google-badge.png", :width => "190"}/
 
-
-      :markdown
-        # A Coin can become worth any value you transfer to it
-
-      .card.article.editable
-        .hdr
-          .provider.provider-gt-35
-            %img.provider-favicon{:height => "16", :src => "https://www.3dhubs.com/sites/all/themes/hubs3d/images/favicons/favicon.ico?v=gAvMqzQ3nv", :width => "16"}/
-            %a.provider-name{:href => "https://www.3dhubs.com", :target => "_blank"} 3D Hubs
-        .bd
-          .pair-bd
-            .art-bd
-              %a{:href => "https://www.3dhubs.com/talk/thread/nfc-enabled-3d-printed-bitcoins-are-getting-useful", :target => "_blank"}
-                %img.art-bd-img{:src => "http://i-cdn.embed.ly/1/display/crop?height=200&key=fd92ebbc52fc43fb98f69e50e7893c13&url=https%3A%2F%2F3dhubs.s3-eu-west-1.amazonaws.com%2Fs3fs-public%2Ftalk%2Fattachments%2F400576_661647540552137_318402657_n_0.jpg&width=636"}/
-              %a.is-editable-delete{:href => "#"}
-              %a.is-editable-expand-contract{:href => "#"}
-            .txt-bd
-              %h1.title.is-editable-txt
-                %a{:href => "https://www.3dhubs.com/talk/thread/nfc-enabled-3d-printed-bitcoins-are-getting-useful", :target => "_blank"} NFC Enabled 3D Printed Bitcoins are getting useful
-              %p.description.is-editable-txt
-                When I first started embedding NFC (Near Field Communication) inside 3D printed objects mid-print, a Bitcoin "coin" seemed to be the coolest application. However at that time the only use I could find was simply displaying the long wallet address when prompted. Video of 1st Test.
-                %a.is-editable-delete{:href => "#"}
-              %a.action{:href => "https://www.3dhubs.com/talk/thread/nfc-enabled-3d-printed-bitcoins-are-getting-useful", :target => "_blank"} Read the article on 3dhubs.com &gt;
-
-
-      .gallery
-        :markdown
-          qua ci sono un po di screenshot messi alla cazzo - fai un po come vuoi :D
-
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/sms_copy1.jpg)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/sms_copy2.jpg)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/nfc_tags_3d_printed.jpg)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_qrcode.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_send.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_settings1.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_settings2.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_home2.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_receive2.png)
-          ![](http://mkvphoto.s3.amazonaws.com/BitNFC/screen_wallet_found.png)
-
-
-      .biancone.marcone
-        %h1 NFC Format
-        :markdown
-
-
-          sms:0?body=privateKey
-
-          some **markdown** here from the readme
-
-          ## Future features
-
-          - Better errors > show confirmation count (e.g. in sweep)
-          - Ability to Copy (Clone the tag) (Backup)
-          - Settings > Denominations (other than millibits: BTCs, bits)
-          - Settings > Export private key
-
-          ### TODO COPY OTHER STUFF FROM README OR INVENT IT ASD
-
-
-      .line-compress.center-content.bg-muted-inverse
-        %span.push-left.font-big.bg-crazy.color-white
-            Team  
-        .separator50
-        .separator50
-        .line-compress
-          .col3.center-content.line-tablet.line-mobile
-
-            -#  users = [
-            -#    { user: { name: "Dario Andrei", pic: "https://pbs.twimg.com/profile_images/588266549431111681/-OkrErlP.jpg", username: "wouldgo" } }
-            -#  ]
-            -#
-            -#  users.each do |user|
-            -#
-            -#  end
-
-
-            -# .line
-            -#   %img.img-media.radius-full{:src => user[:pic], :width => "150"}/
-            -# .separator30
-            -# %h2
-            -#   %b user[:name]
-            -# %div
-            -#   %a{:href => "https://github.com/#{user[:username]}", :target => "_blank"} @#{user[:username]}
-            -# .separator50.tablet.mobile
-
-            -# <tag
-            -#   name="Dario Andrei"
-            -#   pic="https://pbs.twimg.com/profile_images/588266549431111681/-OkrErlP.jpg"
-            -# >
-
-            -# <tag>
-            -#   <
-            -#   <name="Dario Andrei">
-            -# </tag>
-
-            .line
-              %img.img-media.radius-full{:src => "https://pbs.twimg.com/profile_images/588266549431111681/-OkrErlP.jpg", :width => "150"}/
-            .separator30
-            %h2
-              %b Dario Andrei
-            %div
-              %a{:href => "https://github.com/wouldgo", :target => "_blank"} @wouldgo
-            .separator50.tablet.mobile
-
-          .col4.center-content.line-tablet.line-mobile
-            %img.img-media.radius-full{:src => "https://scontent-mxp.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/542160_4332260636080_2012164112_n.jpg?oh=0c5515650dddd69074fa88e4f398effd&oe=55FF2328", :width => "150"}/
-            .separator30
-            %h2
-              %b Filippo Oretti
-            %div
-              %a{:href => "https://github.com/45kb", :target => "_blank"} @45kb
-            .separator50.tablet.mobile
-          .col3.center-content.line-tablet.line-mobile
-            %img.img-media.radius-full{:src => "https://pbs.twimg.com/profile_images/505182765457764352/2wAnUl4N.jpeg", :width => "150"}/
-            .separator30
-            %h2
-              %b Francesco Canessa
-            %div
-              %a{:href => "https://github.com/makevoid", :target => "_blank"} @makevoid
-            .separator50.tablet.mobile
-          .separator100
-      / invest
-      .line.center-content.bg-crazy
-        .line-compress
-          .line
-            %span.push-left.font-big.bg-white
-                Invest  
-            .separator50
-            .separator50
-            %h1.line-comopress.color-white.font-big.font-light
-              Are you an investor?
-            .separator15
-            %h3.line-compress.color-muted.font-medium.font-light
-              Would you like this team to work for your idea?
-            .separator15
-
-            :markdown
-              Send us some Bitcoins
-
-              ### 1BitNFCrzQCcAtdSWxmcPLiBgdTJBRNZR
-
-              And, if you have a good idea, we'll work to make that real!
-
-            .line
-              .separator30
-              %a.btn.bg-muted.btn-contacts.color-white.radius5{:href => "mailto:makevoid@gmail.com"}
-                .separator5
-                Contact us
-                .separator5
-            .separator100
-            .separator50
-        %small.footer.line.bg-muted.color-white.center-content
+           
           .separator30
-          .separator15
+    .line-compress.center-content.bg-dark
+      .separator50
+      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "620", :src => "https://www.youtube.com/embed/srE1fDB-dTY?rel=0&#{autoplay}&theme=light", :width => "75%"}
+      %iframe{:allowfullscreen => "", :frameborder => "0", :height => "620", :src => "https://www.youtube.com/embed/8C2MHliSq8Q?rel=0&#{autoplay}&start=3&theme=light", :width => "25%"}
+      .separator50
+      .line.gallery-wrapper
+        .line.gallery
+          %img.slideImg{:alt => "", :src => "http://mkvphoto.s3.amazonaws.com/DogeNFC/screen_home.png"}/
+          %img.slideImg{:alt => "", :src => "http://mkvphoto.s3.amazonaws.com/DogeNFC/screen_receive.png"}/
+          %img.slideImg{:alt => "", :src => "http://mkvphoto.s3.amazonaws.com/DogeNFC/screen_send.png"}/
+          %img.slideImg{:alt => "", :src => "http://mkvphoto.s3.amazonaws.com/DogeNFC/screen_wallet_found.png"}/
+          %img.slideImg.placeholder.hidden{:alt => "", :src => "http://mkvphoto.s3.amazonaws.com/DogeNFC/screen_qrcode.png"}/
+
+      .separator50
+      .clear
+      %div
+        %a{:href => "http://mkvd.s3.amazonaws.com/apps/BitNFC-armv7.apk"}
+          %img{:src => "assets/img/google-badge.png", :width => "190"}/
+      .line-compress.center-content
+        .separator50
+        .line
+          .color-white
+            %h3
+              A Fork of BitNFC, a Coinbase BitHack entry
+          .separator30
+      /
+        <div class="line-compress center-content">
+        <div class='separator50'></div>
+        <div class="line">
+        <div class="color-white">
+        <h2>
+        feature
+        </h2>
+        </div>
+        <div class='separator30'></div>
+        </div>
+        </div>
+      .separator30
+      .line-compress.center-content.color-white
+        %h4 Made for:
+        .separator10
+        %a{:href => "//developers.coinbase.com/bithack", :target => "_blank"}
+          %img.v-middle{:src => "assets/img/bithack.png", :width => "160"}/
+      .separator30
+      .font15x
+        (The Bitcoin version)
+
+      .separator50
+      .separator50
+
+      %a{ href: "http://society6.com/product/sir-doge_framed-print#12=53&13=54" }
+        %img{ src: "assets/img/doge.jpg" }
+
+
+      .separator50
+
+
+      .line-compress.center-content
+        .separator50
+        .line
+          %h2.color-white DogeNFC is a fork of BitNFC, they're both open source, to get the source code or other infos about it:
+          .separator5
+          %a{:href => "https://github.com/makevoid/DogeNFC/blob/master/README.md#dogenfc", :target => "_blank"}
+            %h1.color-white.toggle-opacity-hover Check out the project on GitHub!
+        .separator50
+        .separator50
+    .line-compress.center-content.bg-muted-inverse
+      %span.push-left.font-big.bg-crazy.color-white
+          Team  
+      .separator50
+      .separator50
+      .line-compress
+        .col3.center-content.line-tablet.line-mobile
+          .line
+            %img.img-media.radius-full{:src => "https://pbs.twimg.com/profile_images/588266549431111681/-OkrErlP.jpg", :width => "150"}/
+          .separator30
+          %h2
+            %b Dario Andrei
           %div
-            Copyright © 2015
-            %a.color-muted-inverse{:href => "//720kb.net", :target => "_blank"} 720kb
-            \&amp;
-            %a.color-muted-inverse{:href => "//makevoid.com", :target => "_blank"} makevoid
-            .separator10
-          .line-compress.color-muted-inverse
-            .line-compress
-              © Bithack and Coinbase names and logos are trademarks by Coinbase - We are not affiliated in any way, we are only partecipating to the hackathon :)
-          .separator10
+            %a{:href => "https://github.com/wouldgo", :target => "_blank"} @wouldgo
+          .separator50.tablet.mobile
+        .col4.center-content.line-tablet.line-mobile
+          %img.img-media.radius-full{:src => "https://scontent-mxp.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/542160_4332260636080_2012164112_n.jpg?oh=0c5515650dddd69074fa88e4f398effd&oe=55FF2328", :width => "150"}/
+          .separator30
+          %h2
+            %b Filippo Oretti
+          %div
+            %a{:href => "https://github.com/45kb", :target => "_blank"} @45kb
+          .separator50.tablet.mobile
+        .col3.center-content.line-tablet.line-mobile
+          %img.img-media.radius-full{:src => "https://pbs.twimg.com/profile_images/505182765457764352/2wAnUl4N.jpeg", :width => "150"}/
+          .separator30
+          %h2
+            %b Francesco Canessa
+          %div
+            %a{:href => "https://github.com/makevoid", :target => "_blank"} @makevoid
+          .separator50.tablet.mobile
+        .separator100
+    / invest
+    .line.center-content.bg-crazy
+      .line-compress
+        .line
+          %span.push-left.font-big.bg-white
+              You & Us  
           .separator50
+          .separator50
+          %h1.line-comopress.color-white.font-big.font-light
+            Do you want to invest in a good open source project?
+          .separator15
+          %h3.line-compress.color-muted.font-medium.font-light
+            Would you like this team to work for your idea?
+          .separator15
+          %h4.color-muted Send us some Bitcoins
+          %h4.color-muted and let's start the conversation!
+          .separator5
+          %h3 1BitNFCdtWh4mJkVhygtjc88CR2r7gqkWt
+          .separator15
+          %img{:alt => "1BitNFCdtWh4mJkVhygtjc88CR2r7gqkWt", :src => "assets/img/1BitNFC-qr.gif"}/
+          .separator15
+          .separator15
+          %p.color-muted And, if you have a good idea, we'll work to make that real!
+          .line
+            .separator30
+            %a.btn.bg-muted.btn-contacts.color-white.radius5{:href => "mailto:makevoid@gmail.com"}
+              .separator5
+              Write us, now!
+              .separator5
+          .separator100
+          .separator50
+      %small.footer.line.bg-muted.color-white.center-content
+        .separator30
+        .separator15
+        %div
+          CopyLeft ȼ 2015
+          %a.color-muted-inverse{:href => "//720kb.net", :target => "_blank"} 720kb
+          \&
+          %a.color-muted-inverse{:href => "//makevoid.com", :target => "_blank"} makevoid
+          .separator10
+        .line-compress.color-muted-inverse
+          .line-compress
+            %p © Bithack and Coinbase names and logos are trademarks by Coinbase
+            %p We are not affiliated in any way, we are only partecipating to the hackathon :)
+        .separator10
+        .separator50
+    %script{:src => "http://code.jquery.com/jquery-1.11.3.min.js"}
+    :javascript
+      $(function () {
+
+        var resizeGallery = function() {
+          $(".gallery").css("height", $(".slideImg").first().height()+25)
+        }
+
+        var throggle = function(fun) {
+          setTimeout(fun, 0)
+          setTimeout(fun, 10)
+          setTimeout(fun, 150)
+          setTimeout(fun, 500)
+        }
+
+        throggle(resizeGallery)
+        $(window).on("resize", resizeGallery)
+
+        $('.slideImg').on('click', function (el) {
+
+          if ($(el.target).hasClass("active")) {
+            $('.slideImg').removeClass("active")
+            $(".slideImg.placeholder").addClass("hidden")
+          } else {
+            $(el.target).toggleClass('active')
+            $(".slideImg.placeholder").removeClass("hidden")
+          }
+
+        })
+      }())

@@ -1,6 +1,15 @@
 # BitNFC.org
 ### BitNFC project page
 
+Useful infos to fork for other coins:
+
+##### http://bitcoin.stackexchange.com/questions/28219/using-vanitygen-to-generate-addresses-for-different-cryptocurrencies
+
+
+Vanitygen
+
+    ./vanitygen -X 30
+
 
 ### (squisite) Prerequisites
 
